@@ -38,7 +38,7 @@ while True:
                 print(f"Application_time: {target_product["time"]}")
                 print(f"is_applied: {target_product["is_applied"]}")
         case 3:
-            print("Display single product details")
+            print("Mark as applied")
             s_id = int(input("Enter the ID of the product: "))
             target_product = {}
             for skin in skins:
