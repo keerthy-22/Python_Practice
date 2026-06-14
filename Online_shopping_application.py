@@ -9,7 +9,7 @@ class Online_Shopping_System:
         print("Removed from cart....")
 class Electronics(Online_Shopping_System):
     def __init__(self,category):
-        super().__init__("SBNI1107890","4000000",category)
+        super().__init__("Laptop","400000",category)
     def apply_warranty(self):
         print("Warranty applied....")
     def check_specs(self):
@@ -17,7 +17,7 @@ class Electronics(Online_Shopping_System):
         
 class Clothing(Online_Shopping_System):
     def __init__(self,category):
-        super().__init__("UBI22097890","30000000",category)
+        super().__init__("Chudidhar","3000",category)
     def select_size(self):
         print("Size selected....")
     def try_on(self):
