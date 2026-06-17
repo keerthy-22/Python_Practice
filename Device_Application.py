@@ -1,3 +1,5 @@
+title = Device Application 
+print(title)
 class Device:
     def __init__(self, brand, power_status):
         self.brand = brand
